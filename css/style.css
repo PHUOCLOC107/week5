@@ -1,0 +1,35 @@
+/* Định dạng các phần tử giao diện */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .search-filter {
+    margin-top: 20px;
+  }
+  
+  .search-filter input, .search-filter select {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  footer {
+    background-color: #ccc;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  

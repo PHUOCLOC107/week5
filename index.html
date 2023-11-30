@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Danh sách Áo khoác</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Kết nối với file CSS -->
+</head>
+<style>
+    /* Định dạng các phần tử giao diện */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.search-filter {
+  margin-top: 20px;
+}
+
+.search-filter input, .search-filter select {
+  padding: 8px;
+  margin-right: 10px;
+}
+.box{
+    width: 230px;
+    height: 300px;
+    background-color: white;
+   float: left;
+   margin: 10px;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  position: relative; top: 100px;
+}
+
+</style>
+<body>
+  <header>
+    <h1>Trang web thời trang</h1>
+    <nav>
+      <ul>
+        <li><a href="#"> <button>Áo khoác</button></a></li>
+        <li><a href="#"><button>Quần áo</button></a></li>
+        <li><a href="#"><button>Phụ kiện</button></a></li>
+        <li><a href="#"><button>Giày Dép</button></a></li>
+        <li><a href="#"><button>BaLo</button></a></li>
+        <li><a href="#"><button>Túi Xách</button></a></li>
+       
+      </ul>
+    </nav>
+    <div class="search-filter">
+      <input type="text" placeholder="Tìm kiếm...">
+      <select>
+        <option value="">Lọc theo...</option>
+        <option value="color">Màu sắc</option>
+        <option value="size">Kích thước</option>
+       
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section class="product-list">
+        <div class="box">
+            <img style="position: relative; top: 20px;" src="images/ao-khoac-bomber-nam-m89-1497618015-1507356-72fb7b6c2e4a8edb0955fde2a9a98384-zoom_850x850-1.jpg" alt="" width="200px" height="200px">
+            <p style="padding-left: 10px; color: rgb(9, 4, 4); font-size: 18px;"> Áo Khoác Kéo Khóa Nam</p>
+            <p style="padding-left: 10px;position: relative; bottom: 20px; color: red; font-size: 20px;">₫ 200.000</p>
+            <p style="padding-left: 10px; position: relative; bottom: 40px; color: rgb(6, 1, 1); font-size: 20px;">Màu Sắc: <button style="background-color: black; width: 30px; height: 20px;"></button></p>
+        </div>
+        <div class="box">
+            <img style="position: relative; top: 20px;" src="images/jacket.jpg" alt="" width="200px" height="200px">
+            <p style="padding-left: 10px; color: rgb(9, 4, 4); font-size: 18px;"> Áo Khoác Jacket</p>
+            <p style="padding-left: 10px;position: relative; bottom: 20px; color: red; font-size: 20px;">₫ 149.000</p>
+            <p style="padding-left: 10px; position: relative; bottom: 40px; color: rgb(6, 1, 1); font-size: 20px;">Màu Sắc: <button style="background-color: black; width: 30px; height: 20px;"></button></p>
+        </div>
+        <div class="box">
+            <img style="position: relative; top: 20px;" src="images/pchq.jpg" alt="" width="200px" height="200px">
+            <p style="padding-left: 10px; color: rgb(9, 4, 4); font-size: 18px;"> Áo Phong Cách Hàn Quốc</p>
+            <p style="padding-left: 10px;position: relative; bottom: 20px; color: red; font-size: 20px;">₫ 150.000</p>
+            <p style="padding-left: 10px; position: relative; bottom: 40px; color: rgb(6, 1, 1); font-size: 20px;">Màu Sắc: <button style="background-color: rgb(127, 13, 13); width: 30px; height: 20px;"></button></p>
+        </div>
+        <div class="box">
+            <img style="position: relative; top: 20px;" src="images/hoodie.jpg" alt="" width="200px" height="200px">
+            <p style="padding-left: 10px; color: rgb(9, 4, 4); font-size: 18px;"> Áo Khoác Hoodie Zip</p>
+            <p style="padding-left: 10px;position: relative; bottom: 20px; color: red; font-size: 20px;">₫ 150.000</p>
+            <p style="padding-left: 10px; position: relative; bottom: 40px; color: rgb(6, 1, 1); font-size: 20px;">Màu Sắc: <button style="background-color:rgb(206, 218, 112); width: 30px; height: 20px;"></button></p>
+        </div>
+        <div class="box">
+            <img style="position: relative; top: 20px;" src="images/9bf7f2ff68793820a918cb59fa869049.jpg" alt="" width="200px" height="200px">
+            <p style="padding-left: 10px; color: rgb(9, 4, 4); font-size: 18px;"> Áo Khoác Bomber Nam</p>
+            <p style="padding-left: 10px;position: relative; bottom: 20px; color: red; font-size: 20px;">₫ 150.000</p>
+            <p style="padding-left: 10px; position: relative; bottom: 40px; color: rgb(6, 1, 1); font-size: 20px;">Màu Sắc: <button style="background-color:rgb(80, 88, 93); width: 30px; height: 20px;"></button></p>
+        </div>
+        <div class="box">
+            <img style="position: relative; top: 20px;" src="images/hoodie SF.jpg" alt="" width="200px" height="200px">
+            <p style="padding-left: 10px; color: rgb(9, 4, 4); font-size: 18px;"> Áo Hoodie SF</p>
+            <p style="padding-left: 10px;position: relative; bottom: 20px; color: red; font-size: 20px;">₫ 150.000</p>
+            <p style="padding-left: 10px; position: relative; bottom: 40px; color: rgb(6, 1, 1); font-size: 20px;">Màu Sắc: <button style="background-color:rgb(240, 246, 250); width: 30px; height: 20px;"></button></p>
+        </div>
+    <p style="position: relative; top: 30px;left: 300px;"><img  src="images/Screenshot 2023-11-29 125837.png" alt=""></p>
+    </section>
+  </main>
+
+  <footer>
+  
+  </footer>
+</body>
+</html>
